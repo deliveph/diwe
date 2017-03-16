@@ -1,0 +1,32 @@
+index.html首页
+moreanchor.html 首页查看更多
+agreement.html 网站公告管理协议
+dynamic.html   动态列表页面
+dynamic-msg.html :動態詳情
+mypublish.html    我发布的h5页面
+search.html    查询页面
+download.html  pc下载页面
+</**个人中心模块**********/>
+follows.html   我的粉丝界面
+userinfo.html   我的直播界面
+userIndex.html   我的个人资料
+release.html     我的发布
+grade.html      我的等级
+bil.html         我的账单    收礼
+defend.html      守护的主播
+ranksfan.html     粉丝贡献榜
+certification.html  实名认证的界面
+settings.html     安全设置
+tribune.html      论坛页面
+/**充值模块***/
+recharge.html      充值页面
+withdraw.html       体现页面
+exchange.html       兑换粮票页面
+/**消息模块***************************/
+news.html          我的消息页面
+Forumnews.html      论坛消息
+concernMsg.html     关注私信页面
+mymsgList.html      查看我的私信列表
+/**用户直播间模块***********************************/
+liveuser.html      主播间
+liveanchor.html     主播间  之主播

@@ -1,0 +1,46 @@
+.action_container{
+    .action_lsit{
+        width: 100%;
+        overflow: hidden;
+        margin-top:18px;
+        ul{
+            width:1308px;
+        }
+        li{
+            width: 544px;
+            float: left;
+            margin-right: 110px;
+            margin-top:46px;
+            .img{
+                width: 100%;
+                height: 316px;
+                border:1px solid #eeeeee;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    vertical-align: middle;
+                }
+            }
+            .item_info{
+                .item_title{
+                    font-size: 20px;
+                    margin-top:22px;
+                    display: block;
+                    white-space:nowrap; 
+                    overflow:hidden; 
+                    text-overflow:ellipsis;
+                }
+                .time{
+                    font-size: 16px;
+                    color: #999;
+                    margin-top:18px;
+                    em{
+                        font-size: 16px;
+                        color: #999;
+                    }
+                }
+            }
+        }
+        
+    }
+}

@@ -1,0 +1,186 @@
+.rank_container{
+    .rank_tab{
+        margin:36px 0 24px;
+        a,em{
+            font-size: 20px;
+            color: #666666;
+        }
+        a:hover,a.current{
+            color: #ff8959;
+        }
+    }
+    .rank_list{
+        .rankList_despite{
+            height: 336px;
+            background-color:#f9f9f9;
+            position: relative;
+            padding:0 50px;
+            li{
+                display: inline-block;
+                text-align: center;
+                width: 156px;
+                position: absolute;
+                top:106px;
+                left:124px;
+                .photo{
+                    width: 121px;
+                    height: 122px;
+                    background: url(/asset/images/crown2.png) no-repeat center;
+                    position: relative;
+                    margin: 0 auto;
+                    img{
+                        width: 76px;
+                        height: 76px;
+                        border-radius: 50%;
+                        -webkit-border-radius:50%;
+                        -moz-border-radius:50%;
+                        -ms-border-radius:50%;
+                        position: absolute;
+                        left: 0;
+                        right: 0;
+                        margin: 0 auto;
+                        margin-top: 18px;
+                    }
+                }
+
+                .name{
+                    width: 100%;
+                    font-size: 16px;
+                    color: #666;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    margin-top:16px;
+                    a{
+                        font-size: 16px;
+                        color: #666;
+                    }   
+                }
+                .grade{
+                    width: 52px;
+                    height: 20px;
+                    line-height: 20px;
+                    color: #fff;
+                    position: relative;
+                    margin:0 auto;
+                    margin-top:16px;
+                    text-align: center;
+                    background-color: #11d680;
+                    padding-left:16px;
+                    i:after{
+                        content:"";
+                        width:14px;
+                        height: 14px;
+                        border:1px solid red;
+                        position: absolute;
+                        top:2px;
+                        left:4px;
+                    }
+                }
+            }
+
+            .first{
+                top:26px;
+                left:0;
+                right: 0;
+                width: 220px;
+                margin:0 auto;
+                .photo{
+                    width: 154px;
+                    height: 155px;
+                    background: url(/asset/images/crown1.png) no-repeat center;
+                    img{
+                        width: 96px;
+                        height: 96px;
+                        margin-top: 24px;
+                    }
+                }
+                .name{
+                    font-weight: bold;
+                    a{
+                        font-size: 16px;
+                        color: #666;
+                        font-weight: bold;
+                    }
+                }
+            }
+
+            .third{
+                left:initial;
+                right: 110px;
+                .photo{
+                    background: url(/asset/images/crown3.png) no-repeat center;
+                }
+            }
+        }
+
+        .rankList_box{
+            padding:0 50px;
+            ul{
+                width: 50%;
+                li{
+                    margin-top:34px;
+                    dt{
+                        display: inline-block;
+                        font-style:italic;
+                        color: #ff8959;
+                        font-size: 20px;
+                        margin-right: 20px;
+                        width: 40px;
+                    }
+                    dd{
+                        display: inline-block;
+                    }
+                    .level{
+                        width: 52px;
+                        height: 20px;
+                        line-height: 20px;
+                        color: #fff;
+                        position: relative;
+                        margin:0 auto;
+                        text-align: center;
+                        background-color: #11d680;
+                        padding-left:16px;
+                        margin-right: 12px;
+                        display: inline-block;
+                        vertical-align: middle;
+                        border-radius: 4px;
+                        i:after{
+                            content:"";
+                            width:14px;
+                            height: 14px;
+                            border:1px solid red;
+                            position: absolute;
+                            top:2px;
+                            left:4px;
+                        }
+                    }
+                    .famous{
+                        color: #969696;
+                        background-color: #f0f0f0;
+                        width: 68px;
+                        height: 20px;
+                        text-align: center;
+                        display: inline-block;
+                        vertical-align: middle;
+                        margin-right: 12px;
+                        border-radius: 4px;
+                    }
+                    .name{
+                        max-width: 40%;
+                        vertical-align: middle;
+                        a{
+                            max-width: 100%;
+                            display: inline-block;
+                            white-space: nowrap;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            font-size: 16px;
+                            color: #333;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
