@@ -129,6 +129,34 @@ table {
 
 textarea { resize : none; }
 
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+	-webkit-appearance: none !important;
+}
+
+
+.w245{
+	width: 245px;
+}
+
+.w937{
+	width: 937px;
+}
+
+.por{
+	position: relative;
+}
+
+.poa{
+	position: absolute;
+}
+
+.h20cf0f0f5{
+	height: 20px;
+	background-color: #f0f0f5;
+}
+
 /* font */
 
 h1 {
@@ -402,6 +430,9 @@ h6 {
 	width: 370px;
 }
 
+.mt20{
+	margin-top:20px;
+}
 
 /* border */
 
@@ -461,8 +492,8 @@ h6 {
 /*验证*/
 
 .formtips {
-	height: 20px;
-	line-height: 20px;
+	height: 24px;
+	line-height: 24px;
 }
 
 .onError {
